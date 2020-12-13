@@ -579,8 +579,9 @@ public with sharing class AccountCreateController {
             else if(STREET != Null && STREET.length() > 40){
                 errorMsg = 'Street No length should be within 40 character';
             }
-           if(errorMsg != null)
+           if(errorMsg != null){
             a.addError(errorMsg);
+           }
         }
         
     }
