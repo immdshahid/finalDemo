@@ -213,7 +213,7 @@ public with sharing class AccountCreateController {
             string knvpList = '';
             // soumyad end
             // sending all related SAP sales org data to SAP in arrary format
-            System.debug('isSAPAccId...1' +isSAPAccId);
+            // System.debug('isSAPAccId...1' +isSAPAccId);
             if(!isSAPAccId){
                 System.debug('isSAPAccId...2' +isSAPAccId);
                 for(SAP_Sales_Org__c rec : salesOrgList){
